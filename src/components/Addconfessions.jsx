@@ -18,13 +18,14 @@ const Addconfessions = () => {
   const {username, confesiion} = user;
   const history = useHistory()
     const onValueChange = (e) => {
-      console.log(user);
+  
       setUser({...user, [e.target.name]: e.target.value })
     }
 
     const addConfessionDetails = async() => {
 await addConfession(user);
-history.push('/all');
+console.log(user);
+ history.push('/all');
     }
     return (
         <div  style={{color: "white"}}>
@@ -40,7 +41,7 @@ history.push('/all');
 
 
 </FormControl>
-<Button onClick={ addConfessionDetails()} className="btn">Add Confession</Button>
+<Button onClick={ addConfessionDetails} className="btn">Add Confession</Button>
           </FormGroup>
         </div>
     )
