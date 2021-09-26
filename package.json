@@ -1,5 +1,6 @@
 {
   "name": "crud-app",
+  "homepage": "https://vdi1402.github.io/crud--app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,6 +26,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "json-server": "json-server --watch src/database/db.json --host 192.168.43.27 --port 3003 ",
     "dev": "concurrently \"npm start\" \"npm run json-server\"",
