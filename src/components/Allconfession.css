@@ -1,0 +1,9 @@
+@media screen and (max-width) {
+  .css-480o17-MuiGrid-root{
+    flex-direction: col!important;
+}  
+.css-480o17-MuiGrid-root{
+    height: max-content!important;}
+}
+
+
