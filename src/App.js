@@ -15,13 +15,13 @@ import Editconfession from './components/Editconfession';
 function App() {
   return (
 
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
  <Navbar />
  <Switch>
  <Route exact path="/" component={Vdi} />
  <Route exact path="/all" component={Allconfessions} />
  <Route exact path="/add" component={Addconfessions} />
- <Route exact  path="/edit/:id"  component={Editconfession} />
+ <Route exact path="/edit/:id"component={Editconfession} />
  <Route component={Notfound} />
 </Switch>
 
