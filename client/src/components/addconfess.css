@@ -1,0 +1,32 @@
+label+.css-1480iag-MuiInputBase-root-MuiInput-root{
+    margin-top: 32px !important;
+    border: 2px solid white !important;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-color: rgb(255 255 255)!important;
+}
+
+.css-1kty9di-MuiFormLabel-root-MuiInputLabel-root{
+    color: #600047!important;
+}
+
+.css-1nrlq1o-MuiFormControl-root{
+     border: white !important;
+    padding-top: 4rem !important;
+}
+.css-1kty9di-MuiFormLabel-root-MuiInputLabel-root , .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    color: rgb(97, 93, 93)!important;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input , .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+    color: #600047!important ;
+}
+
+.btn{
+    background: #600047!important;
+    color: white!important;
+    width: max-content!important;
+    padding: 8px!important;
+    display: inline-block!important;
+    margin-top: 2rem!important;
+}

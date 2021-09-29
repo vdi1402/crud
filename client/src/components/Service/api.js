@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const usersUrl = 'http://192.168.43.27:3003/users';
+const usersUrl = 'http://localhost:8000/user';
 
 export const getUsers = async(id) => {
     id = id || '';
@@ -8,7 +8,7 @@ export const getUsers = async(id) => {
 };
 
 export const addConfession = async (user) => {
-   return await axios.post(`${usersUrl}`, user);
+   return await axios.post(`${usersUrl}/add`, user);
    
   
 

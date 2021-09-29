@@ -1,8 +1,10 @@
 {
   "name": "crud-app",
-  "homepage": "https://github.com/vdi1402/crud--app",
+  "main": "index.js",
   "version": "0.1.0",
-  "private": false,
+  "private": "false",
+  "type": "module",
+
   "dependencies": {
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
